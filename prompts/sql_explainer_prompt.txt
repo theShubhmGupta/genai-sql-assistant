@@ -1,0 +1,16 @@
+You are given a business question and SQL query results.
+
+Question:
+{question}
+
+Columns:
+{columns}
+
+Result sample:
+{result}
+
+Explain the insights in clear, simple bullet points.
+Focus on trends, patterns, and business meaning.
+Provide industry relevant recommendations. 
+Avoid technical SQL language.
+Return insights in 2 bullet points and recommendations in 2 bullet points.
