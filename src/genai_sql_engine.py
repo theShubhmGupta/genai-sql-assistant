@@ -31,10 +31,7 @@ CSV_DIR = Path("data/csv/")
 
 
 def initialize_database():
-    """
-    Create SQLite database from CSV files if DB does not exist.
-    Runs once at app startup.
-    """
+    
     if DB_PATH.exists():
         return  # DB already exists, do nothing
 
