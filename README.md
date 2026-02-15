@@ -19,15 +19,15 @@ Live Application
 🧠 Neural Architecture
 
 User Question
-   ↓
-Prompt + Schema → OpenAIx
-   ↓
+    →
+Prompt + Schema → OpenAI
+    →
 Generated SQL
-   ↓
+    →
 SQLite Engine
-   ↓
+    →
 Results + Insights
-   ↓
+    →
 Streamlit UI
 
 
