@@ -1,4 +1,6 @@
+
 🚀 GenAI SQL Assistant
+
 Bridging the gap between human curiosity and structured complexity.
 
 
@@ -18,21 +20,16 @@ Live Application
 
 🧠 Neural Architecture
 
-User Question
-    →
-Prompt + Schema → OpenAI
-    →
-Generated SQL
-    →
-SQLite Engine
-    →
-Results + Insights
-    →
-Streamlit UI
+1. User Question  
+2. Prompt + Schema → OpenAI 
+3. Generated SQL
+4. SQLite Engine
+5. Results + Insights
+6. Streamlit UI
 
 
 🛠️ Tech Stack & Structure
-
+```
 genai-sql-assistant/
 ├── app.py                  # The Control Center (UI Logic)
 ├── src/
@@ -40,9 +37,9 @@ genai-sql-assistant/
 ├── data/
 │   └── csv/                # Source CSV files 
 ├── requirements.txt        # Python dependencies
-└── .gitignore              # The Shield (Security & Cleanliness)
+├── .gitignore              # The Shield (Security & Cleanliness)
 └── README.md               # Project documentation
-
+```
 
 🧰 Tech Stack
 
