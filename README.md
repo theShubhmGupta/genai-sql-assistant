@@ -1,4 +1,5 @@
-GenAI SQL Assistant
+🚀 GenAI SQL Assistant
+Bridging the gap between human curiosity and structured complexity.
 
 
 ⚡ Overview
@@ -15,7 +16,7 @@ Live Application
 [https://genai-sql-assistant.streamlit.app/]
 
 
-Neural Architecture
+🧠 Neural Architecture
 
 User Question
    ↓
@@ -29,22 +30,21 @@ Results + Insights
    ↓
 Streamlit UI
 
-Tech Stack & Structure
+
+🛠️ Tech Stack & Structure
 
 genai-sql-assistant/
-│
-├── app.py                      # Streamlit UI
+├── app.py                  # The Control Center (UI Logic)
 ├── src/
-│   └── genai_sql_engine.py     # Core GenAI + SQL logic
-│
+│   └── genai_sql_engine.py # The Brain (LLM & SQL Logic)
 ├── data/
-│   └── csv/                    # Source CSV files 
-│
-├── requirements.txt            # Python dependencies
-├── .gitignore                  # Excludes DB, secrets
-└── README.md                   # Project documentation
+│   └── csv/                # Source CSV files 
+├── requirements.txt        # Python dependencies
+└── .gitignore              # The Shield (Security & Cleanliness)
+└── README.md               # Project documentation
 
-Tech Stack
+
+🧰 Tech Stack
 
 - Frontend: Streamlit
 - Backend: Python
@@ -54,14 +54,16 @@ Tech Stack
 - Deployment: Streamlit Cloud
 - Version Control: Git & GitHub
 
-Project Anatomy
+
+📂 Project Anatomy
 
 - app.py: The heart of the Streamlit UI.
 - src/genai_sql_engine.py: The core GenAI engine logic.
 - data/csv: Secure storage for source data files.
 - requirements.txt: Environment dependencies.
 
-Security by Design
+
+🛡️ Security by Design
 
 - Read-Only Access: The system is strictly prohibited from altering data.
 - Query Governance: Built-in session limits to prevent resource exhaustion.
@@ -69,7 +71,7 @@ Security by Design
 - Secrets Management: Secure handling of API keys for production environments.
 
 
-Launching the Assistant
+🚀 Launching the Assistant
 
 Local Execution
 
@@ -78,13 +80,14 @@ Local Execution
 3. Authentication: Configure your OpenAI API key.
 4. Launch: Execute streamlit run app.py to start the local server.
 
-Cloud Deployment
+☁️ Cloud Deployment
 
 - Sync your project with GitHub.
 - Connect to Streamlit Cloud for instant global access.
 - Inject your API key into Streamlit Secrets for secure cloud operations.
 
-Future Enhancements
+🔮 Future Enhancements
+
 - SQL edit mode
 - Query result download (CSV)
 - Multi-user authentication
